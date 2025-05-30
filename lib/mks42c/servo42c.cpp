@@ -19,12 +19,14 @@
 //
 // With this wiring there is no need to supply 3.3v to the UART 
 // terminal on the 42C driver. The ESP and the 12v PSU need to share
-// gnd to make this configuration work. 
+// gnd to make this configuration work. If GND is already shared
+// it is not needed to connect the 42C UART GND neither, making the wiring
+// with the ESP possible with only 4 wires.
 //
 // In the Menu on the 42C display set the baudrate of the driver to 
 // 38400 and set the work mode to CR_UART.
 //
-// It should now be possible to etablish communication between ESP
+// It should now be possible to establish communication between ESP
 // and the Servo42C driver
 //
 //####################################################################
