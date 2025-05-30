@@ -3,7 +3,7 @@ A small library to control the makerbase servo42c via UART from an AZdelivery ES
 
 
 # Notes
-This library uses UART2 mapped to GPIO16 as RX and GPIO0 as TX.Using UART1 on this board does not work without issues.
+This library uses UART2 mapped to GPIO16 as RX and GPIO0 as TX. Using UART1 on this board does not work without issues.
 
 
 Flash it with vstudio code and platform.io (extension for vstudio code) 
