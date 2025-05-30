@@ -19,7 +19,7 @@
 //#define TX_PIN 21
 
 
-#define RX_PIN 17
+#define RX_PIN 16
 #define TX_PIN 0
 
 #define MKS42C_MICROSTEPS_DEFAULT       128
