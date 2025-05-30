@@ -12,7 +12,3 @@ ESP RX (GPIO16) to MKS42C TX ESP TX (GPIO0) to MKS42C RX MKS42C UART GND to the 
 If the ESP already has a shared gnd with the 12v PSU it is not needed to connect the GND from the UART terminal.
 
 12v +- to the power input of the MKS42C ( there are on the right of the 6 Pin connector.
-
-
-
-For different ESP32 boards it would require some changes. platform.ini.
