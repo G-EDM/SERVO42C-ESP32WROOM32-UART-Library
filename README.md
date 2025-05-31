@@ -3,7 +3,11 @@ A small library to control the makerbase servo42c via UART from an AZdelivery ES
 
 </br></br>
 # Warning
-This library does not support the v1.0 version and is written for the v1.1 version of the 42C board. It looks like all the raw driver PCBs that are sold without stepper motor are the v1.0 version while the ones with stepper motor are more likely to be the v1.1.
+This library does not support the v1.0 version and is written for the v1.1 version of the 42C board. 
+Amazon and Ebay have a lot of S42C boards available but many of them are the old v1.0 version. 
+I only have one of each and there is one difference. The old one has white connectors while the new one (v1.1.2)
+has green terminals. This library works with one with green terminals.
+
 
 </br></br>
 # Notes
